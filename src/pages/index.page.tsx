@@ -18,10 +18,10 @@ export default function Home() {
               paddingTablet="15px"
               paddingMobile="10px"
           >
-              <Title size="h1">
+              <Title size="h1" tag="span">
                   Next App
               </Title>
-              <Title size="h1">
+              <Title size="h1" tag="span">
                   Next App
               </Title>
           </Group>
