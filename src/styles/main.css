@@ -1,0 +1,32 @@
+@import './bundles.css';
+@import-glob './../tokens/**/*.css';
+
+:root {
+    --custom-min: 12px;
+    --custom-max: 12px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html,
+body {
+    width: 100%;
+    min-height: 100%;
+    background: linear-gradient(180deg, #5096eb 39.37%, #ace4fb 100%);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scrollbar-gutter: stable;
+    & > #__next {
+        height: 100%;
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
