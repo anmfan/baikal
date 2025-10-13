@@ -1,12 +1,13 @@
-import React from "react";
-import { Group } from "@itcase/ui/components/Group";
-import { List, ListItem } from "@itcase/ui/components/List";
-import { Text } from "@itcase/ui/components/Text";
-import { Link } from "@itcase/ui/components/Link";
-import { useUserDeviceContext } from "@itcase/ui/context/UIContext";
+import React from 'react'
+
+import { Group } from '@itcase/ui/components/Group'
+import { Link } from '@itcase/ui/components/Link'
+import { List, ListItem } from '@itcase/ui/components/List'
+import { Text } from '@itcase/ui/components/Text'
+import { useUserDeviceContext } from '@itcase/ui/context/UIContext'
 
 const Footer = () => {
-  const { isMobile } = useUserDeviceContext();
+  const { isMobile } = useUserDeviceContext()
 
   return (
     <Group
@@ -16,9 +17,9 @@ const Footer = () => {
       justifyContentMobile="flex-end"
       padding="25px 30px 190px 30px"
       paddingMobile="15px 15px 15px 0"
-      backgroundColor="var(--color-accent-text-tertiary)"
+      backgroundColor="#051153"
     >
-      <Group width="full" maxWidth="900" display={isMobile ? "none" : "block"}>
+      <Group width="full" maxWidth="900" display={isMobile ? 'none' : 'block'}>
         <List width="full" direction="horizontal" flexWrap="wrap" gap="5">
           <ListItem>
             <Text
@@ -112,7 +113,7 @@ const Footer = () => {
         </Text>
       </Group>
     </Group>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

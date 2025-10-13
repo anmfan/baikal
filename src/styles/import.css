@@ -1,10 +1,10 @@
-@import "@itcase/ui/dist/css/mediaqueries/mediaqueries.css";
+@import '@itcase/ui/dist/css/mediaqueries/mediaqueries.css';
 
-@import "@itcase/ui/dist/css/mixins/mixin_animation.css";
-@import "@itcase/ui/dist/css/mixins/mixin_dark-light.css";
-@import "@itcase/ui/dist/css/mixins/mixin_elevation.css";
-@import "@itcase/ui/dist/css/mixins/mixin_fill-gradient.css";
-@import "@itcase/ui/dist/css/mixins/mixin_typography.css";
-@import "@itcase/ui/dist/css/mixins/mixin_utils.css";
+@import '@itcase/ui/dist/css/mixins/mixin_animation.css';
+@import '@itcase/ui/dist/css/mixins/mixin_dark-light.css';
+@import '@itcase/ui/dist/css/mixins/mixin_elevation.css';
+@import '@itcase/ui/dist/css/mixins/mixin_fill-gradient.css';
+@import '@itcase/ui/dist/css/mixins/mixin_typography.css';
+@import '@itcase/ui/dist/css/mixins/mixin_utils.css';
 
-@import "@itcase/tokens-baikal/dist/css/styles/main.css";
+@import '@itcase/tokens-baikal/dist/css/styles/main.css';

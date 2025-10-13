@@ -1,15 +1,16 @@
-import React from "react";
-import { Group } from "@itcase/ui/components/Group";
-import { Title } from "@itcase/ui/components/Title";
-import { Text } from "@itcase/ui/components/Text";
-import { Image } from "@itcase/ui/components/Image";
+import React from 'react'
+
+import { Group } from '@itcase/ui/components/Group'
+import { Image } from '@itcase/ui/components/Image'
+import { Text } from '@itcase/ui/components/Text'
+import { Title } from '@itcase/ui/components/Title'
 
 const Production = () => {
   return (
     <Group
       padding="120px 0 135px 0"
       paddingMobile="55px 15px 40px 15px"
-      backgroundColor="var(--color-accent-text-tertiary)"
+      backgroundColor="#051153"
     >
       <Group
         maxWidth="1300"
@@ -32,7 +33,7 @@ const Production = () => {
           width="50%"
           margin="0 0 40px 40px"
           marginMobile="0 0 10px 10px"
-          style={{ float: "right" }}
+          style={{ float: 'right' }}
         >
           <Image
             width="full"
@@ -95,7 +96,7 @@ const Production = () => {
         </Text>
       </Group>
     </Group>
-  );
-};
+  )
+}
 
-export default Production;
+export default Production

@@ -1,4 +1,4 @@
-@import "./bundles.css";
+@import './bundles.css';
 @import-glob './../tokens/**/*.css';
 
 :root {
@@ -16,7 +16,7 @@ html,
 body {
   width: 100%;
   min-height: 100%;
-  background: linear-gradient(180deg, #5096eb 39.37%, #ace4fb 100%);
+  color: #fff;
   padding: 0;
   margin: 0;
   box-sizing: border-box;

@@ -9,5 +9,6 @@ export default [
   ...eslint,
   ...eslintMobx,
   ...eslintStorybook,
+  ...storybook.configs["flat/recommended"],
   ...storybook.configs["flat/recommended"]
 ];

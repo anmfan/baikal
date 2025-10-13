@@ -1,10 +1,11 @@
-import React from "react";
-import { Group } from "@itcase/ui/components/Group";
-import { Text } from "@itcase/ui/components/Text";
-import { useUserDeviceContext } from "@itcase/ui/context/UIContext";
+import React from 'react'
+
+import { Group } from '@itcase/ui/components/Group'
+import { Text } from '@itcase/ui/components/Text'
+import { useUserDeviceContext } from '@itcase/ui/context/UIContext'
 
 const Intro = () => {
-  const { isMobile } = useUserDeviceContext();
+  const { isMobile } = useUserDeviceContext()
 
   return (
     <Group
@@ -26,7 +27,7 @@ const Intro = () => {
         padding="40px 15px 45px 15px"
         leftMobile="0%"
       >
-        <Text opacity={isMobile ? ".0" : ".7"} textColor="surfaceTextSecondary">
+        <Text opacity={isMobile ? '.0' : '.7'} textColor="surfaceTextSecondary">
           Production
         </Text>
         <Text
@@ -40,7 +41,7 @@ const Intro = () => {
         </Text>
       </Group>
     </Group>
-  );
-};
+  )
+}
 
-export default Intro;
+export default Intro

@@ -1,16 +1,16 @@
 import { logoConfig } from '@itcase/ui/components/Logo'
 
 const appearance = {
-    s: {
-        src: '/img/Logo/Logo_s.svg',
-        size: 's',
-        alt: 'Байкал Холдинг',
-    },
-    m: {
-        src: '/img/Logo/Logo_m.svg',
-        size: 'm',
-        alt: 'Байкал Холдинг',
-    },
+  m: {
+    size: 'm',
+    src: '/img/Logo/Logo_m.svg',
+    alt: 'Байкал Холдинг',
+  },
+  s: {
+    size: 's',
+    src: '/img/Logo/Logo_s.svg',
+    alt: 'Байкал Холдинг',
+  },
 }
 
 logoConfig.setAppearance(appearance)

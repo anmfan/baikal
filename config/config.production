@@ -1,0 +1,4 @@
+BASE_URL=https://irkvoda.itcase.pro
+
+REST_BASE_URL=$BASE_URL/rest/
+MEDIA_BASE_URL=$BASE_URL/media/

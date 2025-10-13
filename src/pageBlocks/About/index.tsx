@@ -1,8 +1,9 @@
-import React from "react";
-import { Group } from "@itcase/ui/components/Group";
-import { Title } from "@itcase/ui/components/Title";
-import { Text } from "@itcase/ui/components/Text";
-import { Image } from "@itcase/ui/components/Image";
+import React from 'react'
+
+import { Group } from '@itcase/ui/components/Group'
+import { Image } from '@itcase/ui/components/Image'
+import { Text } from '@itcase/ui/components/Text'
+import { Title } from '@itcase/ui/components/Title'
 
 const About = () => {
   return (
@@ -98,7 +99,7 @@ const About = () => {
         </Group>
       </Group>
     </Group>
-  );
-};
+  )
+}
 
-export default About;
+export default About
