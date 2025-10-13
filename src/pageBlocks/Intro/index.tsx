@@ -1,8 +1,11 @@
 import React from "react";
 import { Group } from "@itcase/ui/components/Group";
 import { Text } from "@itcase/ui/components/Text";
+import { useUserDeviceContext } from "@itcase/ui/context/UIContext";
 
 const Intro = () => {
+  const { isMobile } = useUserDeviceContext();
+
   return (
     <Group
       width="full"
@@ -10,7 +13,7 @@ const Intro = () => {
       direction="row"
       position="relative"
       backgorundImage="/img/hero-background.jpg"
-      background="center no-repeat url(/img/hero-background.jpg)"
+      background="center / cover no-repeat url(/img/hero-background.jpg)"
     >
       <Group
         height="100%"
@@ -20,11 +23,12 @@ const Intro = () => {
         alignDirection="flex-start"
         position="absolute"
         left="52%"
-        padding="30px 15px 45px 15px"
+        padding="40px 15px 45px 15px"
         leftMobile="0%"
-        leftTablet="0%"
       >
-        <Text textColor="surfaceTextQuaternary">Production</Text>
+        <Text opacity={isMobile ? ".0" : ".7"} textColor="surfaceTextSecondary">
+          Production
+        </Text>
         <Text
           size="xl"
           fontStyle="italic"
