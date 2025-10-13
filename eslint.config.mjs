@@ -1,25 +1,13 @@
-import { dirname } from "path";
-import { fileURLToPath } from "url";
-import { FlatCompat } from "@eslint/eslintrc";
+// For more info, see https://github.com/storybookjs/eslint-plugin-storybook#configuration-flat-config-format
+import storybook from "eslint-plugin-storybook";
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
+import eslint from '@itcase/lint/eslint/index.js'
+import eslintMobx from '@itcase/lint/eslint/mobx/index.js'
+import eslintStorybook from '@itcase/lint/eslint/storybook/index.js'
 
-const compat = new FlatCompat({
-  baseDirectory: __dirname,
-});
-
-const eslintConfig = [
-  ...compat.extends("next/core-web-vitals", "next/typescript"),
-  {
-    ignores: [
-      "node_modules/**",
-      ".next/**",
-      "out/**",
-      "build/**",
-      "next-env.d.ts",
-    ],
-  },
+export default [
+  ...eslint,
+  ...eslintMobx,
+  ...eslintStorybook,
+  ...storybook.configs["flat/recommended"]
 ];
-
-export default eslintConfig;
