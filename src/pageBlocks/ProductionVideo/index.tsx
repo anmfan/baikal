@@ -27,13 +27,19 @@ const ProductionVideo = () => {
           codecs="avc1.42E01E, mp4a.40.2"
           mp4="/videos/BP.mp4"
         />
-        <Group position="absolute" right="0" bottom="0" left="0">
+        <Group
+          maxWidth="1300px"
+          position="absolute"
+          right="0"
+          bottom="0"
+          left="0"
+          zIndex="2"
+          margin="0 auto"
+          paddingLeft="30px"
+        >
           <Group
-            width="full"
-            maxWidth="1300"
             direction="horizontal"
             alignItems="center"
-            margin="0 auto"
             paddingBottom="30px"
             gap="30px"
           >
