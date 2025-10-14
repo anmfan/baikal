@@ -2,8 +2,7 @@
 @import-glob './../tokens/**/*.css';
 
 :root {
-  --custom-min: 12px;
-  --custom-max: 12px;
+    --text-color: black;
 }
 
 *,

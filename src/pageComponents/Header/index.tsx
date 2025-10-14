@@ -19,7 +19,7 @@ const Header = () => {
       left="0"
       zIndex="5"
       paddingHorizontal="30px"
-      paddingHorizontalMobile="15px"
+      paddingHorizontalMobile="10px"
     >
       <Link
         width={isMobile ? '110' : '130'}

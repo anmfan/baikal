@@ -14,7 +14,7 @@
     "@itcase/config": "^1.0.18",
     "@itcase/next": "^1.1.7",
     "@itcase/storybook-config": "^1.2.13",
-    "@itcase/tokens-baikal": "^1.0.30",
+    "@itcase/tokens-baikal": "^1.1.21",
     "@itcase/ui": "^1.8.153",
     "axios": "^1.8.1",
     "clsx": "^2.1.1",
