@@ -49,5 +49,10 @@
     "stylelint": "^16.14.1",
     "typescript": "^5",
     "vitest": "^3.2.4"
+  },
+  "msw": {
+    "workerDirectory": [
+      "public"
+    ]
   }
 }
