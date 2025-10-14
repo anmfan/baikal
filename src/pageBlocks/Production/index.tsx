@@ -78,7 +78,7 @@ const Production = () => {
         <Text
           size="xl"
           marginBottom="20px"
-          textColor="surfaceTextQuaternary"
+          textColor="surfaceTextSecondary"
           sizeMobile="l"
           tag="p"
         >
@@ -89,7 +89,7 @@ const Production = () => {
           система обучения и развития сотрудников, основанная на Ценностях
           Компании.
         </Text>
-        <Text size="m" textColor="surfaceTextQuaternary" sizeMobile="l">
+        <Text size="m" textColor="surfacePrimary" sizeMobile="l">
           Мы не ставим цель произвести и продать максимальное количество
           продукции — наша цель — удовлетворить спрос самых взыскательных
           Потребителей, заботящихся о своем здоровье.

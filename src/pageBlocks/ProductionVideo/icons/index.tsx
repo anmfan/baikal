@@ -6,4 +6,4 @@ const icon105 = {
   BaikalPearl: BaikalPearl105,
 };
 
-export { icon105 };
+export { icon105 }

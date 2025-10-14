@@ -37,7 +37,7 @@ const Header = () => {
       <Group marginLeft="auto" marginLeftMobile="0" orderMobile="-1">
         <Link
           size="l"
-          textColor="accentTextSecondary"
+          textColor="surfacePrimary"
           href="https://baikal-sea.com/en/production"
           target="_blank"
           underline="none"

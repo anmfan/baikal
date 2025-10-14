@@ -18,5 +18,5 @@ export const Mobile = {
   globals: {
     viewport: { value: "mobile" },
   },
-  render: (args) => <Desktop {...args} />,
+  render: (args) => <Production {...args} />,
 };

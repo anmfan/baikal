@@ -30,3 +30,9 @@ body {
     flex-direction: column;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  html {
+    --text-color: white;
+  }
+}

@@ -46,7 +46,7 @@ const ProductionVideo = () => {
       >
         <Group direction="horizontal" alignItems="center" gap="30px">
           <Icon iconFill="surfacePrimary" SvgImage={icon105.BaikalPearl} />
-          <Icon iconFill="surfacePrimary" SvgImage={icon105.Baikal} />
+          <Icon iconFill="accentItemTertiary" SvgImage={icon105.Baikal} />
         </Group>
       </Group>
     </Group>
