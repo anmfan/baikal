@@ -7,4 +7,5 @@
 @import '@itcase/ui/dist/css/mixins/mixin_typography.css';
 @import '@itcase/ui/dist/css/mixins/mixin_utils.css';
 
+@import '@itcase/tokens-am/dist/css/styles/main.css';
 @import '@itcase/tokens-baikal/dist/css/styles/main.css';

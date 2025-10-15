@@ -1,5 +1,6 @@
 import React, { FC } from 'react'
 
+import { withThemeByClassName } from '@storybook/addon-themes'
 import type { Preview } from '@storybook/react'
 import { initialize, mswLoader } from 'msw-storybook-addon'
 
@@ -9,6 +10,15 @@ import { UIProvider } from '@itcase/ui/context/UIContext'
 
 import '@itcase/storybook-config/css/preview.css'
 import '../src/styles/main.css'
+
+const ADDON_THEMES = {
+  defaultTheme: 'Baikal',
+  themes: {
+    Baikal: 'baikal',
+    'Baikal Dark Theme': 'baikal dark-theme',
+    'Baikal Light Theme': 'baikal light-theme',
+  },
+}
 
 initialize()
 
@@ -38,6 +48,7 @@ const preview: Preview = {
     },
   },
   decorators: [
+    withThemeByClassName({ ...ADDON_THEMES }),
     (Story: FC) => {
       return (
         <UIProvider>
