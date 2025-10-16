@@ -1,4 +1,4 @@
-import Production from "./index";
+import Production from "./Production";
 
 const meta = {
   title: "PageBlocks / Production",

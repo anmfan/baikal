@@ -21,23 +21,24 @@ const Header = () => {
       paddingHorizontal="30px"
       paddingHorizontalMobile="10px"
     >
-      <Link
-        width={isMobile ? '110' : '130'}
-        direction="row"
-        justifyContent="center"
-        alignItems="flex-end"
-        aspectRatio={isMobile ? '1/0.625' : '1/1'}
-        paddingMobile="5px 10px"
-        paddingTablet="5px 10px"
-        backgroundColor="white"
-        href="/"
-      >
-        <Image src="/img/logo.svg" alt="logo" />
-      </Link>
+      <Group>
+        <Link
+          width={isMobile ? '110' : '130'}
+          direction="horizontal"
+          justifyContent="center"
+          alignItems="flex-end"
+          aspectRatio={isMobile ? '1/0.625' : '1/1'}
+          paddingMobile="5px 10px"
+          paddingTablet="5px 10px"
+          backgroundColor="white"
+          href="/"
+        >
+          <Image src="/img/logo.svg" alt="logo" />
+        </Link>
+      </Group>
       <Group marginLeft="auto" marginLeftMobile="0" orderMobile="-1">
         <Link
           size="l"
-          textColor="surfacePrimary"
           href="https://baikal-sea.com/en/production"
           target="_blank"
           underline="none"

@@ -7,14 +7,10 @@ import { Title } from '@itcase/ui/components/Title'
 
 const About = () => {
   return (
-    <Group
-      paddingVertical="135px 120px"
-      paddingVerticalMobile="55px 40px"
-      backgroundColor="var(--color-accent-text-primary)"
-    >
+    <Group paddingVertical="135px 120px" paddingVerticalMobile="55px 40px">
       <Group
         maxWidth="1300"
-        direction="column"
+        direction="vertical"
         margin="0 auto"
         paddingHorizontal="30px"
         paddingHorizontalMobile="0"
@@ -42,15 +38,15 @@ const About = () => {
         </Title>
         <Group
           direction="horizontal"
-          directionMobile="column"
-          directionTablet="column"
+          directionMobile="vertical"
+          directionTablet="vertical"
           justifyContent="space-between"
           alignItems="flex-start"
         >
           <Group
-            width="full"
+            width="fill"
             maxWidth="620"
-            direction="column"
+            direction="vertical"
             maxWidthMobile="none"
             maxWidthTablet="none"
           >
@@ -59,7 +55,7 @@ const About = () => {
               marginBottom="20px"
               paddingHorizontalMobile="15px"
               paddingHorizontalTablet="15px"
-              color="var(--color-accent-text-tertiary)"
+              textColor="accentTextTertiary"
               tag="p"
             >
               Карьера сотрудников выстраивается в зависимости от особенностей
@@ -74,7 +70,7 @@ const About = () => {
               marginBottom="20px"
               paddingHorizontalMobile="15px"
               paddingHorizontalTablet="15px"
-              color="var(--color-accent-text-tertiary)"
+              textColor="accentTextTertiary"
               tag="p"
             >
               Система обучения и развития персонала обеспечивает сотрудников
@@ -82,14 +78,14 @@ const About = () => {
             </Text>
           </Group>
           <Group
-            width="full"
+            width="fill"
             maxWidth="620"
             margin="0 0 40px 40px"
             marginMobile="40px 0 0 0"
             marginTablet="40px 0 0 0"
           >
             <Image
-              width="full"
+              width="fill"
               height="auto"
               src="/img/about-img.jpg"
               resizeMode="contain"

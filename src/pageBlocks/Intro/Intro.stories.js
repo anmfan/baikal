@@ -1,8 +1,8 @@
-import About from './index'
+import Intro from './Intro'
 
 const meta = {
-  title: 'PageBlocks / About',
-  component: About,
+  title: 'PageBlocks / Intro',
+  component: Intro,
 }
 
 export default meta
@@ -11,12 +11,12 @@ export const Desktop = {
   globals: {
     viewport: { value: 'desktop' },
   },
-  render: (args) => <About {...args} />,
+  render: (args) => <Intro {...args} />,
 }
 
 export const Mobile = {
   globals: {
     viewport: { value: 'mobile' },
   },
-  render: (args) => <About {...args} />,
+  render: (args) => <Intro {...args} />,
 }

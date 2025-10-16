@@ -11,7 +11,7 @@ const Footer = () => {
 
   return (
     <Group
-      width="full"
+      width="fill"
       direction="horizontal"
       justifyContent="space-between"
       justifyContentMobile="flex-end"
@@ -19,8 +19,8 @@ const Footer = () => {
       paddingMobile="15px 15px 15px 0"
       backgroundColor="#051153"
     >
-      <Group width="full" maxWidth="900" display={isMobile ? 'none' : 'block'}>
-        <List width="full" direction="horizontal" flexWrap="wrap" gap="5">
+      <Group maxWidth="900" display={isMobile ? 'none' : 'block'}>
+        <List direction="horizontal" flexWrap="wrap" gap="5">
           <ListItem>
             <Text
               size="s"
@@ -97,7 +97,7 @@ const Footer = () => {
             />
           </ListItem>
         </List>
-        <Group width="full">
+        <Group>
           <Link
             size="s"
             text="Политика обработки персональных данных"

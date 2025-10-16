@@ -1,4 +1,4 @@
-import ProductionVideo from './index'
+import ProductionVideo from './ProductionVideo'
 
 const meta = {
   title: 'PageBlocks / ProductionVideo',

@@ -25,7 +25,6 @@ const Production = () => {
           textColor="surfaceTextSecondary"
           sizeMobile="h3"
           sizeTablet="h2"
-          tag="h1"
         >
           Производство BAIKALSEA Company
         </Title>
@@ -35,13 +34,7 @@ const Production = () => {
           marginMobile="0 0 10px 10px"
           style={{ float: 'right' }}
         >
-          <Image
-            width="full"
-            height="auto"
-            src="/img/prod-img.jpg"
-            resizeMode="contain"
-            alt="Prod img"
-          />
+          <Image src="/img/prod-img.jpg" resizeMode="contain" alt="Prod img" />
         </Group>
         <Text
           size="xl"
@@ -56,8 +49,7 @@ const Production = () => {
           сертификатами.
         </Text>
         <Group
-          width="full"
-          direction="row"
+          direction="horizontal"
           flexWrap="wrap"
           marginBottom="20px"
           gap="10px"

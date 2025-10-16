@@ -1,8 +1,8 @@
-import Header from './index'
+import Footer from './Footer'
 
 const meta = {
-  title: 'PageComponents / Header',
-  component: Header,
+  title: 'PageComponents / Footer',
+  component: Footer,
 }
 
 export default meta
@@ -11,12 +11,12 @@ export const Desktop = {
   globals: {
     viewport: { value: 'desktop' },
   },
-  render: (args) => <Header {...args} />,
+  render: (args) => <Footer {...args} />,
 }
 
 export const Mobile = {
   globals: {
     viewport: { value: 'mobile' },
   },
-  render: (args) => <Header {...args} />,
+  render: (args) => <Footer {...args} />,
 }

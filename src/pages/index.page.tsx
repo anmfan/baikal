@@ -1,11 +1,11 @@
 import Head from 'next/head'
 
-import About from 'src/pageBlocks/About'
-import Intro from 'src/pageBlocks/Intro'
-import Production from 'src/pageBlocks/Production'
-import ProductionVideo from 'src/pageBlocks/ProductionVideo'
-import Footer from 'src/pageComponents/Footer'
-import Header from 'src/pageComponents/Header'
+import About from 'src/pageBlocks/About/About'
+import Intro from 'src/pageBlocks/Intro/Intro'
+import Production from 'src/pageBlocks/Production/Production'
+import ProductionVideo from 'src/pageBlocks/ProductionVideo/ProductionVideo'
+import Footer from 'src/pageComponents/Footer/Footer'
+import Header from 'src/pageComponents/Header/Header'
 
 export default function HomePage() {
   return (

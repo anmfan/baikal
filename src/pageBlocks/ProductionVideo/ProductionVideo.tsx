@@ -9,7 +9,7 @@ import { icon105 } from './icons'
 const ProductionVideo = () => {
   return (
     <Group
-      width="100%"
+      width="fill"
       position="relative"
       paddingBottom="45%"
       overflow="hidden"

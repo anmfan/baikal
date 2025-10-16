@@ -9,9 +9,9 @@ const Intro = () => {
 
   return (
     <Group
-      width="full"
+      width="fill"
       minHeight="500px"
-      direction="row"
+      direction="horizontal"
       position="relative"
       backgorundImage="/img/hero-background.jpg"
       background="center / cover no-repeat url(/img/hero-background.jpg)"
@@ -19,7 +19,7 @@ const Intro = () => {
       <Group
         height="100%"
         maxWidth="570px"
-        direction="column"
+        direction="vertical"
         justifyContent="space-between"
         alignDirection="flex-start"
         position="absolute"
