@@ -1,10 +1,10 @@
 import { Group } from '@itcase/ui/components/Group'
 import { Icon } from '@itcase/ui/components/Icon'
-import { Image } from '@itcase/ui/components/Image'
 import { Link } from '@itcase/ui/components/Link'
 import { useUserDeviceContext } from '@itcase/ui/context/UIContext'
 
 import { icon32 } from './icons'
+import { Logo } from '@itcase/ui/components/Logo'
 
 const Header = () => {
   const { isMobile } = useUserDeviceContext()
@@ -21,7 +21,7 @@ const Header = () => {
       paddingHorizontal="30px"
       paddingHorizontalMobile="10px"
     >
-      <Group>
+      <Group fill="surfacePrimary">
         <Link
           width={isMobile ? '110' : '130'}
           direction="horizontal"
@@ -30,10 +30,9 @@ const Header = () => {
           aspectRatio={isMobile ? '1/0.625' : '1/1'}
           paddingMobile="5px 10px"
           paddingTablet="5px 10px"
-          backgroundColor="white"
           href="/"
         >
-          <Image src="/img/logo.svg" alt="logo" />
+          <Logo src="/img/logo.svg" />
         </Link>
       </Group>
       <Group marginLeft="auto" marginLeftMobile="0" orderMobile="-1">
@@ -47,10 +46,7 @@ const Header = () => {
         </Link>
       </Group>
       <Group marginLeft="25px" marginLeftMobile="0" cursor="pointer">
-        <Icon
-          iconFillHover="var(--color-accent-secondary-hover)"
-          SvgImage={icon32.hamburger}
-        />
+        <Icon SvgImage={icon32.hamburger} />
       </Group>
     </Group>
   )

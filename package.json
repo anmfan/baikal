@@ -16,7 +16,7 @@
     "@itcase/storybook-config": "^1.2.13",
     "@itcase/tokens-am": "^1.1.23",
     "@itcase/tokens-baikal": "^1.1.23",
-    "@itcase/ui": "^1.8.153",
+    "@itcase/ui": "^1.8.163",
     "axios": "^1.8.1",
     "clsx": "^2.1.1",
     "html5-boilerplate": "^9.0.1",

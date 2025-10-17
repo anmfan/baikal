@@ -21,8 +21,8 @@ const About = () => {
           marginBottom="40px"
           paddingHorizontalMobile="15px"
           paddingHorizontalTablet="15px"
-          color="var(--color-accent-text-tertiary)"
           fontWeight="bold"
+          textColor="accentTextTertiary"
           sizeTablet="h2"
         >
           Производство
@@ -32,7 +32,7 @@ const About = () => {
           marginBottom="20px"
           paddingHorizontalMobile="15px"
           paddingHorizontalTablet="15px"
-          color="var(--color-accent-text-tertiary)"
+          textColor="accentTextTertiary"
         >
           Главная ценность компании — профессиональный коллектив.
         </Title>

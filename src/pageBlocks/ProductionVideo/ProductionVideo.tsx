@@ -17,8 +17,7 @@ const ProductionVideo = () => {
       {
         <style>{`
         .video__wrapper {
-          width: 100%;
-          height: 100%;
+        height: 100%;
           object-fit: cover;
         }
       `}</style>
@@ -28,10 +27,10 @@ const ProductionVideo = () => {
         width="100%"
         height="100%"
         position="absolute"
-        top="0"
+        top="30px"
         left="0"
-        codecs="avc1.42E01E, mp4a.40.2"
         mp4="/videos/BP.mp4"
+        poster="/videos/BP.mp4"
       />
 
       <Group

@@ -21,7 +21,6 @@ const Intro = () => {
         maxWidth="570px"
         direction="vertical"
         justifyContent="space-between"
-        alignDirection="flex-start"
         position="absolute"
         left="52%"
         padding="40px 15px 45px 15px"

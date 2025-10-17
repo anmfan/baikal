@@ -2,7 +2,6 @@
 @import-glob './../tokens/**/*.css';
 
 :root {
-    --text-color: black;
 }
 
 *,
@@ -32,6 +31,5 @@ body {
 
 @media (prefers-color-scheme: dark) {
   html {
-    --text-color: white;
   }
 }
