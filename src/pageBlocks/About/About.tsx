@@ -23,6 +23,7 @@ const About = () => {
           paddingHorizontalTablet="15px"
           fontWeight="bold"
           textColor="accentTextTertiary"
+          sizeMobile="h2"
           sizeTablet="h2"
         >
           Производство
