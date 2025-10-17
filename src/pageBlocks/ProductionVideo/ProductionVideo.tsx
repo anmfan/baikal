@@ -14,22 +14,13 @@ const ProductionVideo = () => {
       paddingBottom="45%"
       overflow="hidden"
     >
-      {
-        <style>{`
-        .video__wrapper {
-        width: 100%;
-        height: 100%;
-          object-fit: cover;
-        }
-      `}</style>
-      }
-
       <Video
         width="100%"
         height="100%"
         position="absolute"
         top="0"
         left="0"
+        poster="/img/test-img.png"
         mp4="/videos/BP.mp4"
       />
 
