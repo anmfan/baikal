@@ -27,7 +27,7 @@ const Intro = () => {
         padding="40px 15px 45px 15px"
         leftMobile="0%"
       >
-        <Text opacity={isMobile ? '.0' : '.8'} textColor="surfaceTextSecondary">
+        <Text opacity={isMobile ? '.0' : '.7'} textColor="surfaceTextSecondary">
           Production
         </Text>
         <Text
