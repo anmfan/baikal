@@ -8,9 +8,9 @@ import { Title } from '@itcase/ui/components/Title'
 const Production = () => {
   return (
     <Group
+      fill="surfacePrimary"
       padding="120px 0 135px 0"
       paddingMobile="55px 15px 40px 15px"
-      backgroundColor="#051153"
     >
       <Group
         maxWidth="1300"

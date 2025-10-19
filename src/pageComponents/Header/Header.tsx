@@ -1,10 +1,10 @@
 import { Group } from '@itcase/ui/components/Group'
 import { Icon } from '@itcase/ui/components/Icon'
 import { Link } from '@itcase/ui/components/Link'
+import { Logo } from '@itcase/ui/components/Logo'
 import { useUserDeviceContext } from '@itcase/ui/context/UIContext'
 
 import { icon32 } from './icons'
-import { Logo } from '@itcase/ui/components/Logo'
 
 const Header = () => {
   const { isMobile } = useUserDeviceContext()
