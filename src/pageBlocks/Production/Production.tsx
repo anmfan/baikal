@@ -82,7 +82,7 @@ const Production = () => {
               Потребителей, заботящихся о своем здоровье.
             </Text>
           </Group>
-          <Group margin="0 0 40px 40px" marginMobile="0">
+          <Group margin="0 0 40px 40px" marginMobile="30px 0 0 0">
             <Image
               src="/img/prod-img.jpg"
               resizeMode="contain"
