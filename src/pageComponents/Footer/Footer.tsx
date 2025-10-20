@@ -15,7 +15,7 @@ const Footer = () => {
       direction="horizontal"
       justifyContent="space-between"
       justifyContentMobile="flex-end"
-      fill="surfacePrimary"
+      fill="surfaceItemTertiary"
       padding="25px 30px 190px 30px"
       paddingMobile="15px 15px 15px 0"
     >
