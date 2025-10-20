@@ -15,9 +15,9 @@ const Footer = () => {
       direction="horizontal"
       justifyContent="space-between"
       justifyContentMobile="flex-end"
+      fill="surfacePrimary"
       padding="25px 30px 190px 30px"
       paddingMobile="15px 15px 15px 0"
-      backgroundColor="#051153"
     >
       <Group maxWidth="900" display={isMobile ? 'none' : 'block'}>
         <List direction="horizontal" flexWrap="wrap" gap="5">

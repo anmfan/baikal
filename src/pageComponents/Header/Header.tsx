@@ -21,7 +21,7 @@ const Header = () => {
       paddingHorizontal="30px"
       paddingHorizontalMobile="10px"
     >
-      <Group backgroundColor="#fff">
+      <Group fill="accentPrimary">
         <Link
           width={isMobile ? '110' : '130'}
           direction="horizontal"
