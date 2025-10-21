@@ -23,13 +23,15 @@ const Header = () => {
     >
       <Group fill="accentItemPrimary">
         <Link
-          width={isMobile ? '110' : '130'}
+          width="130"
+          widthMobile="110"
           direction="horizontal"
           justifyContent="center"
           alignItems="flex-end"
-          aspectRatio={isMobile ? '1/0.625' : '1/1'}
+          aspectRatio="1/1"
           paddingMobile="5px 10px"
           paddingTablet="5px 10px"
+          aspectRatioMobile="1/0.625"
           href="/"
         >
           <Logo src="/img/logo.svg" />
