@@ -17,7 +17,7 @@ const Intro = () => {
       background="center / cover no-repeat url(/img/hero-background.jpg)"
     >
       <Group
-        height="100%"
+        height="fill"
         maxWidth="570px"
         direction="vertical"
         justifyContent="space-between"
