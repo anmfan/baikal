@@ -13,7 +13,6 @@ const Intro = () => {
       minHeight="500px"
       direction="horizontal"
       position="relative"
-      backgorundImage="/img/hero-background.jpg"
       background="center / cover no-repeat url(/img/hero-background.jpg)"
     >
       <Group
