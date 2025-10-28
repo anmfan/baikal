@@ -2,11 +2,8 @@ import React from 'react'
 
 import { Group } from '@itcase/ui/components/Group'
 import { Text } from '@itcase/ui/components/Text'
-import { useUserDeviceContext } from '@itcase/ui/context/UIContext'
 
 const Intro = () => {
-  const { isMobile } = useUserDeviceContext()
-
   return (
     <Group
       width="fill"
@@ -26,7 +23,7 @@ const Intro = () => {
         padding="40px 15px 45px 15px"
         leftMobile="0%"
       >
-        <Text opacity={isMobile ? '.0' : '.7'} textColor="surfaceTextSecondary">
+        <Text opacity=".7" textColor="surfaceTextSecondary" opacityMobile=".0">
           Production
         </Text>
         <Text
