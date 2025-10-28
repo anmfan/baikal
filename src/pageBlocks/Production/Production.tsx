@@ -29,8 +29,8 @@ const Production = () => {
         >
           Производство BAIKALSEA Company
         </Title>
-        <Group width="fill" direction="horizontal" directionMobile="vertical">
-          <Group maxWidth="50%" maxWidthMobile="none">
+        <Group width="fill" columns="2" columnsMobile="1">
+          <Group maxWidth="fill" maxWidthMobile="none">
             <Text
               size="xl"
               marginBottom="20px"
