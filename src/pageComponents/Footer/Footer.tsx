@@ -4,11 +4,8 @@ import { Group } from '@itcase/ui/components/Group'
 import { Link } from '@itcase/ui/components/Link'
 import { List, ListItem } from '@itcase/ui/components/List'
 import { Text } from '@itcase/ui/components/Text'
-import { useUserDeviceContext } from '@itcase/ui/context/UIContext'
 
 const Footer = () => {
-  const { isMobile } = useUserDeviceContext()
-
   return (
     <Group
       width="fill"
@@ -19,7 +16,7 @@ const Footer = () => {
       padding="25px 30px 190px 30px"
       paddingMobile="15px 15px 15px 0"
     >
-      <Group maxWidth="900" display={isMobile ? 'none' : 'block'}>
+      <Group maxWidth="900" display="block" displayMobile="none">
         <List direction="horizontal" flexWrap="wrap" gap="5">
           <ListItem>
             <Text
