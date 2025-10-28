@@ -42,7 +42,6 @@ const About = () => {
           directionMobile="vertical"
           directionTablet="vertical"
           justifyContent="space-between"
-          alignItems="flex-start"
         >
           <Group
             width="fill"
